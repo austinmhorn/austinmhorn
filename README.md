@@ -20,7 +20,7 @@
     </h3>
     <i>
       <p align="center">
-        I'm currently mastering SFML for multi-platform application development.<br>
+        I'm currently mastering SFML for multi-platform application development in C++.<br>
         Open to mutual endorsements, as well as collaborating on interesting and innovative projects.<br>
       </p>
     </i>
