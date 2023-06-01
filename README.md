@@ -15,12 +15,14 @@
 </p>
 
 <p align="center">
-    <b>
-    Austin Horn
-    </b><br>
-    <i><br>
+    <h3 align="center"><b>
+      Austin Horn </b><br>
+    </h3>
+    <i>
+      <p align="center">
         I'm currently mastering SFML for multi-platform application development.<br>
         Open to mutual endorsements, as well as collaborating on interesting and innovative projects.<br>
+      </p>
     </i>
 </p>
 
@@ -35,6 +37,21 @@
   <p align="center">
     <img alt="Austin Horn's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=github_light&layout=compact&hide_border=true" height="200" width="500" />
     </p>
+</details>
+
+<details>
+    <summary><b>Experience </b></summary><br>
+    <p align="center">
+      <i>
+        <p2 style="color:blue;">
+        Senior Tech Lead
+        </p2>
+      </i> 
+        for <a href="https://icodeschool.com">
+        iCode 
+        </a>
+        <br>
+      <i>Organizer </i> for <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
 </details>
 
 ---
