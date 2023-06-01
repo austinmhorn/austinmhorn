@@ -44,14 +44,14 @@
     <p align="center">
       <i>
         <p2 style="color:blue;">
-        Senior Tech Lead
+          Senior Tech Lead
         </p2>
       </i> 
-        for <a href="https://icodeschool.com">
-        iCode 
+        @ <a href="https://icodeschool.com">
+          iCode 
         </a>
         <br>
-      <i>Organizer </i> for <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
+      <i>Organizer </i> @ <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
 </details>
 
 ---
