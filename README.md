@@ -16,13 +16,26 @@
 
 <p align="center">
     <b>
-    My name is Austin Horn.
+    Austin Horn
     </b><br>
     <i><br>
         I'm currently mastering SFML for multi-platform application development.<br>
         Open to mutual endorsements, as well as collaborating on interesting and innovative projects.<br>
     </i>
 </p>
+
+<details>
+  <summary><b>Github Stats </b></summary>
+  <p align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=austinmhorn&theme=github" alt="Austin Horn's Github Contributions Stats" height="200" width="500"/>
+  </p>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=austinmhorn&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&theme=github_light" alt="Austin Horn's Github General Stats" height="200" width="500" />
+  </p>
+  <p align="center">
+    <img alt="Austin Horn's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=github_light&layout=compact&hide_border=true" height="200" width="500" />
+    </p>
+</details>
 
 ---
 
