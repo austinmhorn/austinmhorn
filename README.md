@@ -5,17 +5,23 @@
 <p align="center">
     <a href="https://www.linkedin.com/in/austinmhorn">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" height="20px" alt="LinkedIn">
-  </a>
-  <a href="https://stackoverflow.com/users/15836084/austin-horn">
-    <img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" height="20px" alt="-StackOverflow">
-  </a>
-   <a href="https://leetcode.com/austinhorn">
-    <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" height="20px" alt="-StackOverflow">
-  </a><br><br>
-    <i>
-        Currently mastering SFML for multi-platform application development.<br>
+    </a>
+    <a href="https://stackoverflow.com/users/15836084/austin-horn">
+        <img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" height="20px" alt="-StackOverflow">
+    </a>
+    <a href="https://leetcode.com/austinhorn">
+        <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" height="20px" alt="-StackOverflow">
+    </a><br>
+</p>
+
+<p align="center">
+    <b>
+    My name is Austin Horn.
+    </b><br>
+    <i><br>
+        I'm currently mastering SFML for multi-platform application development.<br>
         Open to mutual endorsements, as well as collaborating on interesting and innovative projects.<br>
-    </i><br>
+    </i>
 </p>
 
 ---
