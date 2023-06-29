@@ -52,9 +52,20 @@
         </a>
         <br>
       <i>Organizer </i> @ <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
+    </p>
 </details>
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=austinmhorn&label=Profile%20views&color=0e75b6&style=flat" alt="austinmhorn"/> </p> -->
+
+<details>
+    <summary><b>Current Projects</b></summary><br>
+    <p align="center">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=APVS&theme=nord">
+    </p>
+    <p align="center">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=CaveExplorer&theme=nord">
+    </p>
+</details>
 
 
 ---
