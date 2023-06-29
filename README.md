@@ -1,5 +1,5 @@
 <h1 align="center">Welcome To My Page <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif" width="28px" alt="👋"></h1>
- 
+
 ---
 
 <p align="center">
@@ -29,10 +29,10 @@
 <details>
   <summary><b>Github Stats </b></summary>
   <p align="center">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=austinmhorn&theme=github" alt="Austin Horn's Github Contributions Stats" height="200" width="500"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=austinmhorn&theme=nord_dark" alt="Austin Horn's Github Contributions Stats" height="200" width="500"/>
   </p>
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=austinmhorn" alt="Austin Horn's Github General Stats" height="200" width="500" />
+    <img src="https://github-readme-stats.vercel.app/api?username=austinmhorn&show_icons=true&theme=nord" alt="Austin Horn's Github General Stats" height="200" width="500" />
   </p>
   <p align="center">
     <img alt="Austin Horn's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=github_light&layout=compact&hide_border=true" height="200" width="500" />
@@ -55,6 +55,7 @@
 </details>
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=austinmhorn&label=Profile%20views&color=0e75b6&style=flat" alt="austinmhorn"/> </p> -->
+
 
 ---
 
