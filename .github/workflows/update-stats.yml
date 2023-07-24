@@ -79,4 +79,4 @@ jobs:
       - name: Git push
         if: env.commit_flag
         run: |
-          git push origin "HEAD":"main"
+          git push origin "HEAD":"output"
