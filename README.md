@@ -67,6 +67,9 @@
     </p>
 </details>
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/peyton232/peyton232/output/snake.svg" alt="Snake animation" />
+</p>
 
 ---
 
