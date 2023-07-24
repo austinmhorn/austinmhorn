@@ -15,8 +15,7 @@
 </p>
 
 <p align="center">
-    <h3 align="center"><b>
-      Austin Horn </b><br>
+    <h3 align="center"><b>Austin Michael Horn </b><br>
     </h3>
     <i>
       <p align="center">
