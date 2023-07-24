@@ -39,7 +39,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=austinmhorn&show_icons=true&theme=nord" alt="Austin Horn's Github General Stats" height="200" width="500" />
   </p>
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false" height="200" width="500" />
+    <img src="https://github.com/austinmhorn/austinmhorn/blob/fb1135c8c4f22c21bef3d3d41768a759634888a1/langs.svg" height="200" width="500" />
     </p>
 </details>
 
