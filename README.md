@@ -26,6 +26,10 @@
     </i>
 </p>
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/peyton232/peyton232/output/snake.svg" alt="Snake animation" />
+</p>
+
 <details>
   <summary><b>Github Stats </b></summary>
   <p align="center">
@@ -66,10 +70,6 @@
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=CaveExplorer&theme=nord">
     </p>
 </details>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/peyton232/peyton232/output/snake.svg" alt="Snake animation" />
-</p>
 
 ---
 
