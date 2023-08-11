@@ -63,6 +63,9 @@
 <details>
     <summary><b>Current Projects</b></summary><br>
     <p align="center">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=leafy&theme=nord">
+    </p>
+    <p align="center">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=APVS&theme=nord">
     </p>
     <p align="center">
