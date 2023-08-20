@@ -36,21 +36,21 @@ jobs:
       - name: Save lang
         run: |
           echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
+          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=10&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
           if cat langs.svg | grep -q "scaleInAnimation"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
       - name: Save lang
         if: "! env.commit_flag2"
         run: |
           sleep 2
           echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
+          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=10&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
           if cat langs.svg | grep -q "scaleInAnimation"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
       - name: Save lang
         if: "! env.commit_flag2"
         run: |
           sleep 2
           echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
+          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=10&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
           if cat langs.svg | grep -q "scaleInAnimation"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
 
       - name: Setup git
