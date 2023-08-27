@@ -35,10 +35,10 @@
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=austinmhorn&theme=nord_dark" alt="Austin Horn's Github Contributions Stats" height="200" width="500"/>
   </p>
   <p align="center">
-    <img src="https://github.com/austinmhorn/austinmhorn/blob/fb1135c8c4f22c21bef3d3d41768a759634888a1/stats.svg" alt="Austin Horn's Github General Stats" height="200" width="500" />
+    <img src="https://github.com/austinmhorn/austinmhorn/blob/stats/stats.svg" alt="Austin Horn's Github General Stats" height="200" width="500" />
   </p>
   <p align="center">
-    <img src="https://github.com/austinmhorn/austinmhorn/blob/fb1135c8c4f22c21bef3d3d41768a759634888a1/langs.svg" height="200" width="500" />
+    <img src="https://github.com/austinmhorn/austinmhorn/blob/stats/langs.svg" height="200" width="500" />
     </p>
 </details>
 
