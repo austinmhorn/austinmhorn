@@ -79,4 +79,5 @@ jobs:
       - name: Git push
         if: env.commit_flag
         run: |
+          git pull
           git push origin "HEAD":"stats"
