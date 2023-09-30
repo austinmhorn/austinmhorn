@@ -44,18 +44,11 @@
 
 <details>
     <summary><b>Experience </b></summary><br>
-    <p align="center">
-      <i>
-        <p2 style="color:blue;">
-          Senior Tech Lead
-        </p2>
-      </i> 
-        @ <a href="https://icodeschool.com">
-          iCode 
-        </a>
-        <br>
-      <i>Organizer </i> @ <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
-    </p>
+      <p2 style="color:blue;"> 
+        • <i> Sofware Developer Intern </i> | <a href="https://www.caffeygroup.com"> Caffey Group </a><br>
+        • <i> Senior Tech Lead </i> | <a href="https://icodeschool.com"> iCode </a> <br>
+        • <i> Organizer </i> | <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
+     </p2>
 </details>
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=austinmhorn&label=Profile%20views&color=0e75b6&style=flat" alt="austinmhorn"/> </p> -->
