@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/austinmhorn/austinmhorn/blob/5b83b1766ddac9b51e97a71e51daf9fbf15e3213/snake-dark.svg" alt="Snake animation" />
+    <img src="https://github.com/austinmhorn/austinmhorn/blob/output/snake-dark.svg" alt="Snake animation" />
 </p>
 
 <details>
