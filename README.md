@@ -38,7 +38,7 @@
     <img src="https://github.com/austinmhorn/austinmhorn/blob/stats/stats.svg" alt="Austin Horn's Github General Stats" height="200" width="500" />
   </p>
   <p align="center">
-    <img src="https://github.com/austinmhorn/austinmhorn/blob/stats/langs.svg" height="200" width="500" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=10&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false" height="200" width="500" />
     </p>
 </details>
 
