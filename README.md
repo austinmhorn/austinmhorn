@@ -45,7 +45,7 @@
 <details>
     <summary><b>Experience </b></summary><br>
       <p2 style="color:blue;"> 
-        • <i> Sofware Developer Intern </i> | <a href="https://www.caffeygroup.com"> Caffey Group </a><br>
+        • <i> Software Developer Internship </i> | <a href="https://www.caffeygroup.com"> Caffey Group </a><br>
         • <i> Senior Tech Lead </i> | <a href="https://icodeschool.com"> iCode </a> <br>
         • <i> Organizer </i> | <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
      </p2>
