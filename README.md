@@ -1,123 +1,111 @@
-<h1 align="center">Welcome To My Page <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif" width="28px" alt="👋"></h1>
+<h1 align="center">Austin Horn</h1>
+
+<p align="center">
+  <b>C++ systems, game development, and cross-platform applications.</b><br>
+  Building deterministic gameplay systems, reusable libraries, and developer tooling across native desktop and the web.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/austinmhorn">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://stackoverflow.com/users/15836084/austin-horn">
+    <img src="https://img.shields.io/badge/Stack%20Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow">
+  </a>
+  <a href="https://leetcode.com/austinhorn">
+    <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github.com/austinmhorn/austinmhorn/blob/output/snake-dark.svg" alt="GitHub contribution snake animation">
+</p>
 
 ---
 
-<p align="center">
-    <a href="https://www.linkedin.com/in/austinmhorn">
-        <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" height="20px" alt="LinkedIn">
-    </a>
-    <a href="https://stackoverflow.com/users/15836084/austin-horn">
-        <img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" height="20px" alt="-StackOverflow">
-    </a>
-    <a href="https://leetcode.com/austinhorn">
-        <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" height="20px" alt="-StackOverflow">
-    </a><br>
-</p>
+## Featured Projects
+
+### 🐍 Basilisk
+
+**Pre-alpha deterministic C++ cave-hunting game engine** built around a shared rules core. The active `dev` branch targets native desktop, WebAssembly/browser builds, CLI and simulation clients, with an SDL3 graphical client in development.
+
+`C++20` · `CMake` · `SDL3` · `WebAssembly` · `Simulation`
 
 <p align="center">
-    <h3 align="center"><b>Austin Michael Horn </b><br>
-    </h3>
-    <i>
-      <p align="center">
-        I'm currently mastering CMake and SFML for multi-platform application development in C++.<br>
-        Open to mutual endorsements, as well as collaborating on interesting and innovative projects.<br>
-      </p>
-    </i>
+  <a href="https://github.com/austinmhorn/basilisk/tree/dev">
+    <img src="./profile/pin-basilisk.svg" alt="Basilisk repository card" width="500">
+  </a>
 </p>
+
+### 🚀 Space Wars
+
+**Cross-platform C++/SFML game project** with CMake-based builds for macOS, Windows, and Linux.
+
+`C++` · `CMake` · `SFML` · `Cross-platform`
 
 <p align="center">
-    <img src="https://github.com/austinmhorn/austinmhorn/blob/output/snake-dark.svg" alt="Snake animation" />
+  <a href="https://github.com/austinmhorn/space-wars">
+    <img src="./profile/pin-space-wars.svg" alt="Space Wars repository card" width="500">
+  </a>
 </p>
 
-<details>
-  <summary><b>Github Stats </b></summary>
-  <p align="center">
-    <img src="./profile-summary-card-output/nord_dark/0-profile-details.svg" alt="Austin Horn's Github Contributions Stats" height="200" width="500"/>
-  </p>
-  <p align="center">
-    <img src="./profile/stats.svg" alt="Austin Horn's Github General Stats" height="200" width="500" />
-  </p>
-  <p align="center">
-    <img src="./profile/top-langs.svg" height="200" width="500" />
-    </p>
-</details>
+### 🌿 leafy
 
-<details>
-    <summary><b>Experience </b></summary><br>
-      <p2 style="color:blue;"> 
-        • <i> Software Developer Internship </i> | <a href="https://www.caffeygroup.com"> Caffey Group </a><br>
-        • <i> Senior Tech Lead </i> | <a href="https://icodeschool.com"> iCode </a> <br>
-        • <i> Organizer </i> | <a href="https://unt.campuslabs.com/engage/organization/engineersunited">UNT Engineers United </a><br>
-     </p2>
-</details>
+**Lightweight C++ GUI library** providing reusable widgets, form components, custom shapes, resource management, and state-machine utilities.
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=austinmhorn&label=Profile%20views&color=0e75b6&style=flat" alt="austinmhorn"/> </p> -->
+`C++` · `CMake` · `SFML` · `GUI` · `Reusable library`
 
-<details>
-    <summary><b>Current Projects</b></summary><br>
-    <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=leafy&theme=nord">
-    </p>
-    <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=APVS&theme=nord">
-    </p>
-    <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=austinmhorn&repo=CaveExplorer&theme=nord">
-    </p>
-</details>
+<p align="center">
+  <a href="https://github.com/austinmhorn/leafy">
+    <img src="./profile/pin-leafy.svg" alt="leafy repository card" width="500">
+  </a>
+</p>
 
 ---
 
-### 💬 Languages
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![Objective-C](https://img.shields.io/badge/OBJECTIVE--C-%233A95E3.svg?style=for-the-badge&logo=apple&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
-[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=mysql)](https://github.com/austinmhorn)
+## GitHub Overview
 
-### ⚙️ OS
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+<p align="center">
+  <img src="./profile-summary-card-output/nord_dark/0-profile-details.svg" alt="Austin Horn GitHub contribution overview" width="700">
+</p>
 
-### 📚 Frameworks & Libraries
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![OpenGL](https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl)
-![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![SFML](https://img.shields.io/badge/sfml-%2320232a.svg?style=for-the-badge&logo=sfml&logoColor=%green)
+<p align="center">
+  <img src="./profile/stats.svg" alt="Austin Horn GitHub stats" height="195">
+  <img src="./profile/top-langs.svg" alt="Austin Horn top languages" height="195">
+</p>
 
-### 🌐 Databases
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+---
 
-### 🌄 Design
-![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-![Gimp Gnu Image Manipulation Program](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
+## Current Stack
 
-### 🕹 Gaming
-![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
-![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake">
+  <img src="https://img.shields.io/badge/SDL3-1F6FEB?style=for-the-badge" alt="SDL3">
+  <img src="https://img.shields.io/badge/SFML-2E7D32?style=for-the-badge" alt="SFML">
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" alt="WebAssembly">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
+
+<details>
+  <summary><b>Additional technologies</b></summary>
+  <br>
+  C · C# · Java · Lua · Swift · SQL · React · Django · Flutter · .NET · OpenGL · Firebase · MySQL · Microsoft SQL Server
+</details>
+
+<br>
+
+<details>
+  <summary><b>Background & Experience</b></summary>
+  <br>
+
+- **Software Developer Internship** — [Caffey Group](https://www.caffeygroup.com)
+- **Senior Tech Lead** — [iCode](https://icodeschool.com)
+- **Organizer** — [UNT Engineers United](https://unt.campuslabs.com/engage/organization/engineersunited)
+
+</details>
 
 ---
