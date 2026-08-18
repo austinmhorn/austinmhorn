@@ -1,83 +1,62 @@
+name: Update README cards
+
 on:
   schedule:
-    - cron: 10 17 * * *
+    - cron: "0 3 * * *"
   repository_dispatch:
     types: [update-stats]
   workflow_dispatch:
 
-name: Update stats
 jobs:
   update:
-    name: Update stats
+    name: Generate profile cards
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Save stats
-        run: |
-          echo "commit_flag1=" >> $GITHUB_ENV
-          curl -sS -o stats.svg "https://github-readme-stats.vercel.app/api?username=austinmhorn&show_icons=true&theme=nord"
-          if cat stats.svg | grep -q "scaleInAnimation"; then echo "commit_flag1=1" >> $GITHUB_ENV; fi
-      - name: Save stats
-        if: "! env.commit_flag1"
-        run: |
-          sleep 10
-          echo "commit_flag1=" >> $GITHUB_ENV
-          curl -sS -o stats.svg "https://github-readme-stats.vercel.app/api?username=austinmhorn&show_icons=true&theme=nord"
-          if cat stats.svg | grep -q "scaleInAnimation"; then echo "commit_flag1=1" >> $GITHUB_ENV; fi
-      - name: Save stats
-        if: "! env.commit_flag1"
-        run: |
-          sleep 15
-          echo "commit_flag1=" >> $GITHUB_ENV
-          curl -sS -o stats.svg "https://github-readme-stats.vercel.app/api?username=austinmhorn&show_icons=true&theme=nord"
-          if cat stats.svg | grep -q "scaleInAnimation"; then echo "commit_flag1=1" >> $GITHUB_ENV; fi
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
 
-      - name: Save lang
-        run: |
-          echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
-          if cat langs.svg | grep -q "scaleInAnimation"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
-      - name: Save lang
-        if: "! env.commit_flag2"
-        run: |
-          sleep 2
-          echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
-          if cat langs.svg | grep -q "scaleInAnimation"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
-      - name: Save lang
-        if: "! env.commit_flag2"
-        run: |
-          sleep 2
-          echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=austinmhorn&langs_count=8&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false"
-          if cat langs.svg | grep -q "scaleInAnimation"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=nord
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
-      - name: Setup git
-        if: env.commit_flag1 || env.commit_flag2
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&langs_count=10&hide=ejs,handlebars,php,hack,css,html,matlab&theme=nord&layout=compact&hide_border=false
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          THEME: nord_dark
+          AUTO_PUSH: false
+
+      - name: Commit updated cards
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - name: Git add changes
-        if: env.commit_flag1
-        run: |
-          git add stats.svg
-      - name: Git add changes
-        if: env.commit_flag2
-        run: |
-          git add langs.svg
-      - name: Check diff
-        if: env.commit_flag1 || env.commit_flag2
-        run: |
-          diff=$(git status --short -uno | grep -e '^[MAD]' || :)
-          if [ -n "${diff}" ]; then echo "commit_flag=1" >> $GITHUB_ENV; fi
-      - name: Git commit
-        if: env.commit_flag
-        run: |
-          git commit -qm "chore: update stats"
-          git show --stat-count=10 HEAD
-      - name: Git push
-        if: env.commit_flag
-        run: |
-          git pull
-          git push origin "HEAD":"stats"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg profile-summary-card-output/nord_dark/*.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile cards are already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore: update profile stats"
+          git push origin HEAD:main
