@@ -138,7 +138,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="219.71"
+          width="219.72"
           height="8"
           fill="#f34b7d"
         />
@@ -146,9 +146,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="219.71"
+          x="219.72"
           y="0"
-          width="19.03"
+          width="19.02"
           height="8"
           fill="#3572A5"
         />
@@ -178,7 +178,7 @@
           data-testid="lang-progress"
           x="239.89000000000001"
           y="0"
-          width="14.39"
+          width="14.379999999999999"
           height="8"
           fill="#00ADD8"
         />
@@ -186,7 +186,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="244.28"
+          x="244.27"
           y="0"
           width="12.879999999999999"
           height="8"
@@ -196,9 +196,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="247.16"
+          x="247.15"
           y="0"
-          width="11.25"
+          width="11.24"
           height="8"
           fill="#89e051"
         />
@@ -206,7 +206,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.41"
+          x="248.39000000000001"
           y="0"
           width="10.98"
           height="8"
@@ -216,7 +216,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.39"
+          x="249.37"
           y="0"
           width="10.43"
           height="8"
@@ -226,7 +226,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.82"
+          x="249.8"
           y="0"
           width="10.2"
           height="8"
@@ -239,7 +239,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 87.88%
+        C++ 87.89%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
